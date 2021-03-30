@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-skeleton",
+	"url": "https://github.com/psychobunny/nodebb-plugin-skeleton",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "templates"
+}
